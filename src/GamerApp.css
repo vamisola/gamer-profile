@@ -1,0 +1,47 @@
+/* General Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font: normal 16px sans-serif;
+  color: #555;
+}
+
+ul,
+nav {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  opacity: 0.75;
+  color:white;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+a.btn {
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  background-color:grey;
+  opacity: 1;
+  color: white;
+}
+
+hr {
+  width: 250px;
+  height: 3px;
+  background-color: grey;
+  border: 0;
+  margin-bottom: 50px;
+}
+
+

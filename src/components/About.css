@@ -1,0 +1,58 @@
+/*ABout Section*/
+section h3.title {
+    text-transform: capitalize;
+    font: bold 32px "Open Sans", sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+section p {
+    max-width: 775px;
+    line-height: 2;
+    padding: 0 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    section {
+        padding: 50px 20px;
+    }
+}
+.aboutGamer .grid li {
+    padding: 30px;
+    flex-basis: 50%;
+    text-align: center;
+    border: 1px solid black;
+    
+}
+
+.aboutGamer li:hover {
+    background-color: lightgrey;
+    color: white;
+    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+}
+
+.aboutGamer .grid li i {
+    color: black;
+    text-align: center;
+}
+
+.aboutGamer .grid li h4 {
+    font-size: 30px;
+    margin: 25px 0;
+    justify-content: center;
+    
+}
+
+.iconSize{
+    font-size: 8rem;
+}
+
+@media (max-width: 800px) {
+    .aboutGamer .grid li {
+        flex-basis: 100%;
+        padding: 20px;
+        justify-content: center;
+    }
+}
